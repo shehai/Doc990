@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddAboutUs">
+
+    <ImageButton
+        android:id="@+id/backbutton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="22dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toStartOf="@+id/textView5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/abc_vector_test"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="219dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="8dp"
+        android:paddingTop="14dp"
+        android:text="@string/h1"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="657dp"
+        android:layout_marginTop="2dp"
+        android:fontFamily="sans-serif-black"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="5dp"
+        android:text="Doc990, operated by Digital Health Private Limited is Sri Lanka’s pioneering digital health solutions service provider, offering medical services to subscribers from the convenience of their mobile phone and website.  A joint venture between Sri Lanka’s premier connectivity provider, Dialog Axiata PLC, and three leading private hospital groups; Asiri Hospital Holdings PLC, Nawaloka Hospitals PLC and Ceylon Hospitals PLC (Durdans), Digital Health aims to implement and develop a state-of-the-art, integrated, e-commerce infrastructure for Sri Lanka’s healthcare sector, through the provision of a digitally-enabled medical appointment management for healthcare providers, extending to several innovative new elements for Sri Lanka’s digital health care value chain.  Doc990, launched in 2016, has connected more than 1500 doctors in over 80 hospitals within two years of its inception, through its digital health platform which is accessible to users via www.doc.lk, by dialing 990 or via the Doc990 app, available both on Android and iOS.  Doc990 currently offers a range of medical services including doctor channeling sessions at hospitals island wide for physical consultations, the Tele-Doctor service, where leading consultants can be contacted over the phone, medicine delivery and access to lab reports at key laboratories via the Doc990 web portal. Sri Lanka’s leading medical booking app, Doc990 app, is integrated to all mobile operators and banks for multiple payment options such as add to bill, eZ Cash, Genie, Amex, Visa and Master Card.  The service is open and available to all 22 million plus Sri Lankans, and we at Digital Health aim to transform the health care service sector and experience for all Sri Lankans, and serve as the benchmark for integrated e-commerce healthcare solutions in the Asia-Pacific region."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

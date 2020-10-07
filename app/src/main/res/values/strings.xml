@@ -34,10 +34,10 @@
     </array>
 
     <array name="title">
-        <item> Mr. </item>
-        <item> Mrs. </item>
-        <item> Miss </item>
-        <item> Rev </item>
+        <item>Mr.</item>
+        <item>Mrs.</item>
+        <item>Miss</item>
+        <item>Rev</item>
     </array>
     <string name="na">Name</string>
     <string name="ph">Phone</string>
