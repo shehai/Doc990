@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".partner_hospitle">
+
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="177dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="177dp"
+        android:text="Partner Hospitals"
+        android:textColor="#070707"
+
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/img2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.13" />
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="36dp"
+        android:padding="5dp"
+
+        android:layout_marginBottom="37dp"
+        android:background="@drawable/imagebtn_style"
+        app:layout_constraintBottom_toTopOf="@+id/img5"
+        app:layout_constraintEnd_toStartOf="@+id/img2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        app:srcCompat="@drawable/arogyah" />
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/imagebtn_style"
+        android:padding="5dp"
+
+        android:layout_marginTop="38dp"
+        android:layout_marginBottom="36dp"
+        app:layout_constraintBottom_toTopOf="@+id/img6"
+        app:layout_constraintEnd_toStartOf="@+id/img3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img1"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        app:srcCompat="@drawable/asia" />
+
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/imagebtn_style"
+
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="37dp"
+        app:layout_constraintBottom_toTopOf="@+id/img7"
+        android:padding="5dp"
+
+        app:layout_constraintEnd_toStartOf="@+id/img4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img2"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        app:srcCompat="@drawable/asiri" />
+
+    <ImageView
+        android:id="@+id/img4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="37dp"
+        android:background="@drawable/imagebtn_style"
+        android:padding="5dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/img8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img3"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        app:srcCompat="@drawable/bluecross" />
+
+    <ImageView
+        android:id="@+id/img5"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/imagebtn_style"
+
+        android:layout_marginTop="37dp"
+        app:layout_constraintEnd_toStartOf="@+id/img6"
+        android:padding="5dp"
+
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img1"
+        app:srcCompat="@drawable/care" />
+
+    <ImageView
+        android:id="@+id/img6"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toStartOf="@+id/img7"
+        android:background="@drawable/imagebtn_style"
+        android:padding="5dp"
+
+
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img5"
+        app:layout_constraintTop_toBottomOf="@+id/img2"
+        app:srcCompat="@drawable/cdem" />
+
+    <ImageView
+        android:id="@+id/img7"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="37dp"
+        app:layout_constraintEnd_toStartOf="@+id/img8"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:background="@drawable/imagebtn_style"
+        android:padding="5dp"
+
+
+        app:layout_constraintStart_toEndOf="@+id/img6"
+        app:layout_constraintTop_toBottomOf="@+id/img3"
+        app:srcCompat="@drawable/ceylincohealthcare" />
+
+    <ImageView
+        android:id="@+id/img8"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="37dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="5dp"
+
+        android:background="@drawable/imagebtn_style"
+
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img7"
+        app:layout_constraintTop_toBottomOf="@+id/img4"
+        app:srcCompat="@drawable/ceymed" />
+
+    <ImageView
+        android:id="@+id/img9"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:padding="5dp"
+
+        android:layout_marginTop="29dp"
+        app:layout_constraintBottom_toTopOf="@+id/discriptions"
+        app:layout_constraintEnd_toStartOf="@+id/img10"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:background="@drawable/imagebtn_style"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img5"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/christell" />
+
+    <ImageView
+        android:id="@+id/img10"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="28dp"
+        android:padding="5dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/discriptions"
+        app:layout_constraintEnd_toStartOf="@+id/img11"
+        android:background="@drawable/imagebtn_style"
+
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img9"
+        app:layout_constraintTop_toBottomOf="@+id/img6"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/hemas" />
+
+    <ImageView
+        android:id="@+id/img11"
+        android:layout_width="80dp"
+        android:background="@drawable/imagebtn_style"
+        android:padding="5dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toStartOf="@+id/img12"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img10"
+        app:layout_constraintTop_toBottomOf="@+id/img7"
+        app:srcCompat="@drawable/nevilfernandohosp" />
+
+    <ImageView
+        android:id="@+id/img12"
+        android:layout_width="80dp"
+        android:padding="5dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="29dp"
+        app:layout_constraintBottom_toTopOf="@+id/discriptions"
+        android:background="@drawable/imagebtn_style"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img11"
+        app:layout_constraintTop_toBottomOf="@+id/img8"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/asiricentral" />
+
+    <TextView
+        android:id="@+id/discriptions"
+        android:layout_width="380dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:text="Aogyar hospital is all about good health ,prevention and treatment and is fully committed to offering the best of health services facilities and has many firsts under its wing towards the contribution of a healthy nation.Since its inception in 1997. Arogya hospitals was the first to accept credit cards form clients ,to introduce e-channeling service and holds the franchise for Osu sala in the Gampaha district."
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img11" />
+</androidx.constraintlayout.widget.ConstraintLayout>

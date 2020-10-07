@@ -1,3 +1,47 @@
 <resources>
     <string name="app_name">Doc990</string>
+    <string name="hos">Asiri Hospital Kandy</string>
+    <string name="dr">Dr. Thilanka Seneviratne</string>
+    <string name="sp">Special Notes</string>
+    <string name="ses">Session Details</string>
+    <string name="book">BOOK</string>
+    <string name="act1">Active Appointments 5 </string>
+    <string name="act2">Active Appointments 1 </string>
+    <string name="act3">Active Appointments 0 </string>
+    <string name="act4">Active Appointments 1 </string>
+    <string name="act5">Active Appointments 1 </string>
+    <string name="spe">Allergic Specialist</string>
+    <string name="d1">August 30,2020 Sunday 4pm</string>
+    <string name="d2">August 31,2020 Monnday 5pm</string>
+    <string name="d3">September 03,2020 Sunday 4pm</string>
+    <string name="d4">September 04,2020 Monday 5pm</string>
+    <string name="d5">September 09,2020 Saturday 5pm</string>
+
+    <string name="textview">TextView</string>
+    <string name="todo">TODO</string>
+    <string name="h1">About Us</string>
+    <string name="namw">Dr.A. Fouzan</string>
+    <string name="co">Country</string>
+
+    <array name="country">
+        <item>Srilanka</item>
+        <item>Canada</item>
+        <item>America</item>
+        <item>Russia</item>
+        <item>India</item>
+        <item>Italy</item>
+        <item>Australia</item>
+    </array>
+
+    <array name="title">
+        <item> Mr. </item>
+        <item> Mrs. </item>
+        <item> Miss </item>
+        <item> Rev </item>
+    </array>
+    <string name="na">Name</string>
+    <string name="ph">Phone</string>
+    <string name="nic">NIC</string>
+    <string name="email">E-MAIL</string>
+    <string name="submit">SUBMIT</string>
 </resources>
