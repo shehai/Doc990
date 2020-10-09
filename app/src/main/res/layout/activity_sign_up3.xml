@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".SignUpActivity3">
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_keyboard_backspace"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        >
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo"
+
+            android:text="Create Account"
+
+            android:textSize="40sp"
+
+            />
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/img"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/animation_hrt"
+
+           />
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/itim"
+        android:text="create a new account"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:id="@+id/linear_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/text_edit_shape"
+
+            >
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:padding="16dp"/>
+
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="50dp"
+                android:textSize="18sp" />
+
+
+
+        </LinearLayout>
+
+
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/text_edit_shape"
+            android:drawableStart="@drawable/ic_baseline_account_circle"
+            android:drawablePadding="16dp"
+            android:hint="Name"
+            android:padding="16dp"
+            android:layout_marginTop="15dp"
+            />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+            <RadioButton android:id="@+id/radio_pirates"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NIC"
+                android:onClick="onRadioButtonClicked"
+               />
+            <RadioButton android:id="@+id/radio_ninjas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:text="Passport"
+                android:onClick="onRadioButtonClicked"
+
+                />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/nic_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColorLink="@android:color/background_dark" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/text_edit_shape"
+            android:drawableStart="@drawable/ic_baseline_email"
+            android:drawablePadding="16dp"
+            android:hint="Email"
+            android:padding="16dp"
+            android:layout_marginTop="15dp"/>
+        <EditText
+            android:id="@+id/pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/text_edit_shape"
+            android:drawableStart="@drawable/ic_baseline_lock"
+            android:drawablePadding="16dp"
+            android:hint="Password"
+            android:padding="16dp"
+            android:layout_marginTop="15dp"/>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create Account"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/round_button"
+            />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/black" />
+
+    <TextView
+        android:id="@+id/term_condition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:fontFamily="@font/itim"
+        android:text="By clicking 'Create Account',I agree to Terms and Privacy Policy "
+
+        android:textSize="18sp" />
+</LinearLayout>

@@ -12,6 +12,8 @@
         <activity android:name=".RefundRequest"/>
         <activity android:name=".ResendBookingSms" />
         <activity android:name=".AddAboutUs" />
+        <activity android:name=".ChangePwdActivity"></activity>
+        <activity android:name=".ProfileActivity" />
         <activity android:name=".Login" />
         <activity android:name=".home" />
         <activity android:name=".booking" />
@@ -20,6 +22,9 @@
         <activity android:name=".MyBookings" />
         <activity android:name=".CheckOngoingNum" />
         <activity android:name=".DownloadReceipt" />
+        <activity android:name=".SignUpActivity3" />
+        <activity android:name=".SignUpActivity2" />
+        <activity android:name=".SignUpActivity1" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
