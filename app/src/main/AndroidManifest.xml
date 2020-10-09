@@ -9,10 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RefundRequest"/>
+        <activity android:name="CheckDoctor"></activity>.
+        <activity android:name=".RefundRequest" />
         <activity android:name=".ResendBookingSms" />
         <activity android:name=".AddAboutUs" />
-        <activity android:name=".ChangePwdActivity"></activity>
+        <activity android:name=".ChangePwdActivity" />
         <activity android:name=".ProfileActivity" />
         <activity android:name=".Login" />
         <activity android:name=".home" />
