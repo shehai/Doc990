@@ -22,7 +22,7 @@ public class CheckDoctor extends AppCompatActivity {
 
         recyclerView = findViewById(R.id.recycler_view);
 
-        adapter = new SpecialistAdapter(specialistArrayList);
+        adapter = new SpecialistAdapter(specialistArrayList,getApplicationContext());
 
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(CheckDoctor.this);
 

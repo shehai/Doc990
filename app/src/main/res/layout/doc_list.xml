@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/card"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     card_view:cardCornerRadius="10dp"
@@ -18,7 +17,7 @@
         android:orientation="horizontal"
         android:padding="20dp">
 
-
+        <!--circular image-->
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:layout_width="75dp"
@@ -28,7 +27,7 @@
             android:id="@+id/prof_image"
             />
 
-
+        <!-- TextView Nama Mahasiwa -->
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -36,18 +35,17 @@
             android:orientation="vertical">
 
             <TextView
-                android:text="Cardiologist"
+                android:text="Dr.A.FOUZAN"
                 android:id="@+id/txt_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
-                android:textSize="24sp"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 />
 
-
             <TextView
-                android:text="Problems related to heart"
+                android:text="Dental Surgeon"
                 android:id="@+id/txt_des"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -55,12 +53,30 @@
                 android:layout_marginTop="10dp"
                 />
 
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/black" />
+
+            <Button
+
+                android:id="@+id/channel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="5dp"
+                android:text="Channel"
+                android:background="@drawable/round_button"
+                />
+
 
 
 
         </LinearLayout>
 
+
+
     </LinearLayout>
 
 </androidx.cardview.widget.CardView>
-
