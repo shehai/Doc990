@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DownloadReceipt">
+    tools:context=".ReloadRefund">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -27,9 +27,9 @@
             android:layout_width="284dp"
             android:layout_height="39dp"
             android:fontFamily="casual"
-            android:text="Download Booking Receipt"
+            android:text="Mobile Bill/Reload Refund"
             android:textColor="@color/white"
-            android:textSize="22sp"
+            android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@+id/toolbar"
             app:layout_constraintEnd_toEndOf="parent"
@@ -52,7 +52,7 @@
         <LinearLayout
             android:id="@+id/linear_2"
             android:layout_width="360dp"
-            android:layout_height="450dp"
+            android:layout_height="630dp"
             android:layout_marginRight="20dp"
             android:layout_marginLeft="20dp"
             android:orientation="vertical"
@@ -63,21 +63,30 @@
             android:background="@drawable/form_style">
 
             <TextView
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="2dp"
+                android:text="\n'Your refund will be arranged to the same payment mode used for making  the appointment' \n\n Example - Mobile bill/Reload refund will be arranged for add to bill transactions and bank deposits for card payment transactions "
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginBottom="10dp"
                 android:layout_marginTop="20dp"
-                android:drawableLeft="@drawable/user"
+                android:drawableLeft="@drawable/ref_number"
                 android:drawableRight="@drawable/star"
-                android:text="Reference number"
+                android:text="  Reference number"
                 android:textSize="20dp"
                 android:textStyle="bold" />
 
             <EditText
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="40dp"
+                android:layout_marginBottom="10dp"
                 android:layout_marginLeft="30dp"
                 android:background="@drawable/text_edit_shape"
                 android:padding="12dp" />
@@ -87,16 +96,16 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginBottom="10dp"
-                android:drawableLeft="@drawable/id"
+                android:drawableLeft="@drawable/phone"
                 android:drawableRight="@drawable/star"
-                android:text="  NIC/Passport"
+                android:text="Mobile no/CDMA no"
                 android:textSize="20dp"
                 android:textStyle="bold" />
 
             <EditText
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="40dp"
+                android:layout_marginBottom="10dp"
                 android:layout_marginLeft="30dp"
                 android:background="@drawable/text_edit_shape"
                 android:padding="12dp" />
@@ -105,7 +114,26 @@
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginBottom="40dp"
+                android:layout_marginBottom="10dp"
+                android:drawableLeft="@drawable/remarks"
+                android:drawableRight="@drawable/star"
+                android:text="  Refund remarks"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/text_edit_shape"
+                android:padding="12dp" />
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
                 android:drawableLeft="@drawable/star"
                 android:text="  Required"
                 android:textSize="20dp"
@@ -114,7 +142,7 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Search"
+                android:text="Submit"
                 android:background="@drawable/round_button"
                 android:textColor="@color/white"
                 android:layout_marginLeft="50dp"

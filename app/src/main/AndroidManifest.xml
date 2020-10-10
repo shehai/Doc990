@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="CheckDoctor"></activity>.
+        <activity android:name=".ReloadRefund"/>
+        <activity android:name=".CheckDoctor" />
         <activity android:name=".RefundRequest" />
         <activity android:name=".ResendBookingSms" />
         <activity android:name=".AddAboutUs" />
@@ -26,7 +27,7 @@
         <activity android:name=".SignUpActivity3" />
         <activity android:name=".SignUpActivity2" />
         <activity android:name=".SignUpActivity1" />
-        <activity android:name=".BankRefund"/>
+        <activity android:name=".BankRefund" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
