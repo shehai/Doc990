@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ReloadRefund"/>
+        <activity android:name=".RefundSearch"/>
+        <activity android:name=".ReloadRefund" />
         <activity android:name=".CheckDoctor" />
         <activity android:name=".RefundRequest" />
         <activity android:name=".ResendBookingSms" />
