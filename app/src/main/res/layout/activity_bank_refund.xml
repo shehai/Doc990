@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RefundRequest">
+    tools:context=".BankRefund">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -39,104 +39,192 @@
 
         <TextView
             android:id="@+id/textView3"
-            android:layout_width="58dp"
+            android:layout_width="60dp"
             android:layout_height="53dp"
-            android:background="@drawable/iconfinderarrowbackbackwardsrepeatprevious1868955"
+            android:background="@drawable/ic_baseline_keyboard_backspace_white"
             app:layout_constraintBottom_toBottomOf="@+id/toolbar"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.042"
+            app:layout_constraintHorizontal_bias="0.071"
             app:layout_constraintStart_toStartOf="@+id/toolbar"
             app:layout_constraintTop_toTopOf="@+id/toolbar"
             app:layout_constraintVertical_bias="0.0" />
 
-        <LinearLayout
-            android:layout_width="360dp"
-            android:layout_height="620dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginLeft="20dp"
-            android:orientation="vertical"
-            app:layout_constraintBottom_toBottomOf="parent"
+        <ScrollView
+            android:layout_width="409dp"
+            android:layout_height="wrap_content"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/toolbar"
-            android:background="@drawable/form_style">
+            app:layout_constraintTop_toBottomOf="@+id/toolbar">
 
-            <TextView
-                android:layout_width="320dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginBottom="10dp"
-                android:text="\n'Your refund will be arranged to the same payment mode used for making  the appointment' \n Example - Mobile bill/Reload refund will be arranged for add to bill transactions and bank deposits for card payment transactions "
-                android:textSize="15dp"
-                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="700dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/toolbar"
+                android:background="@drawable/form_style">
 
-            <TextView
-                android:layout_width="300dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginBottom="2dp"
-                android:drawableLeft="@drawable/phone"
-                android:drawableRight="@drawable/star"
-                android:text="Referene number"
-                android:textSize="15dp"
-                android:textStyle="bold" />
+                <TextView
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="25dp"
+                    android:text="\n'Your refund will be arranged to the same payment mode used for making  the appointment' \n\n Example - Mobile bill/Reload refund will be arranged for add to bill transactions and bank deposits for card payment transactions "
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
 
-            <EditText
-                android:layout_width="300dp"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="40dp"
-                android:layout_marginLeft="30dp"
-                android:background="@drawable/text_edit_shape"
-                android:padding="2dp" />
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:drawableLeft="@drawable/ref_number"
+                    android:drawableRight="@drawable/star"
+                    android:text="  Reference number"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
 
-            <TextView
-                android:layout_width="300dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginBottom="10dp"
-                android:drawableLeft="@drawable/id"
-                android:drawableRight="@drawable/star"
-                android:text="  NIC/Passport"
-                android:textSize="20dp"
-                android:textStyle="bold" />
+                <EditText
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/text_edit_shape"
+                    android:padding="12dp" />
 
-            <EditText
-                android:layout_width="300dp"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="30dp"
-                android:layout_marginLeft="30dp"
-                android:background="@drawable/text_edit_shape"
-                android:padding="12dp" />
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:drawableLeft="@drawable/user"
+                    android:drawableRight="@drawable/star"
+                    android:text="Bank account holder name"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
 
-            <TextView
-                android:layout_width="300dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginBottom="10dp"
-                android:drawableLeft="@drawable/star"
-                android:text="  Required"
-                android:textSize="20dp"
-                android:textStyle="bold" />
+                <EditText
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/text_edit_shape"
+                    android:padding="12dp" />
 
-            <TextView
-                android:layout_width="320dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginBottom="35dp"
-                android:text="Note :- \n - Only 3 attempts are allowed per booking \n - Please use phone number entered under patient's details"
-                android:textSize="20dp"
-                android:textStyle="bold" />
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:drawableLeft="@drawable/account_num"
+                    android:drawableRight="@drawable/star"
+                    android:text="  Bank account number"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
 
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Send SMS"
-                android:background="@drawable/round_button"
-                android:textColor="@color/white"
-                android:layout_marginLeft="50dp"
-                android:layout_marginRight="50dp" />
+                <EditText
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/text_edit_shape"
+                    android:padding="12dp" />
 
-        </LinearLayout>
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:drawableLeft="@drawable/bank_name"
+                    android:drawableRight="@drawable/star"
+                    android:text="  Bank name"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/text_edit_shape"
+                    android:padding="12dp" />
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:drawableLeft="@drawable/bank_branch"
+                    android:drawableRight="@drawable/star"
+                    android:text="  Bank branch name"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/text_edit_shape"
+                    android:padding="12dp" />
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:drawableLeft="@drawable/remarks"
+                    android:text="  Refund remarks"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/text_edit_shape"
+                    android:padding="12dp" />
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:drawableLeft="@drawable/star"
+                    android:text="  Required"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Submit"
+                    android:background="@drawable/round_button"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginBottom="20dp"/>
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="40dp"
+                    android:drawableLeft="@drawable/star"
+                    android:text=""
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </RelativeLayout>
