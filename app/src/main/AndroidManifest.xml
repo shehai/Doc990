@@ -11,6 +11,7 @@
         android:theme="@style/AppTheme">
         <activity android:name=".DoctorList"/>
         <activity android:name=".RefundSearch"/>
+        <activity android:name=".Faq"></activity>
         <activity android:name=".ReloadRefund" />
         <activity android:name=".CheckDoctor" />
         <activity android:name=".RefundRequest" />

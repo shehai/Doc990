@@ -42,6 +42,7 @@
             android:layout_width="60dp"
             android:layout_height="53dp"
             android:background="@drawable/ic_baseline_keyboard_backspace_white"
+            android:onClick="refundReq"
             app:layout_constraintBottom_toBottomOf="@+id/toolbar"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.071"
