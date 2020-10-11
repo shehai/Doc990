@@ -1,0 +1,1418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Faq">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="409dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="	#00008B"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="60dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="25dp"
+            android:fontFamily="casual"
+            android:text="FAQ"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.288"
+            app:layout_constraintStart_toEndOf="@+id/textView3"
+            app:layout_constraintTop_toTopOf="@+id/toolbar" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="60dp"
+            android:layout_height="53dp"
+            android:background="@drawable/ic_baseline_keyboard_backspace_white"
+            android:onClick="home"
+            app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.071"
+            app:layout_constraintStart_toStartOf="@+id/toolbar"
+            app:layout_constraintTop_toTopOf="@+id/toolbar"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ScrollView
+            android:layout_width="409dp"
+            android:layout_height="657dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+            <LinearLayout
+                android:id="@+id/linear_2"
+                android:layout_width="360dp"
+                android:layout_height="490dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="20dp"
+                    android:text="DOC990 SIGN UP"
+                    android:textSize="24dp"
+                    android:textStyle="bold"
+                    android:background="@drawable/form_style"
+                    android:padding="2dp"
+                    android:textAlignment="center"/>
+
+                <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="20dp"
+                android:text="1.What is Doc990 user Sign Up?"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="When you sign up with Doc990 via Web and Mobile application, you can enjoy our services with added benefits at NO additional cost."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="2. How do I Sign Up with Doc990?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="You can visit www.doc.lk or Doc990 mobile app click Sign up button. You can simply register with phone number/email address and NIC/Passport."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="3. Do I have to pay an annual subscription fee or a one-time payment to get registered?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="Not at all, the registration is provided free of charge. We want to make empowering you with our services to be a convenient and affordable process as much possible. Please feel FREE to register with Doc990."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="4. I forgot my password. How can I reset it?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="You can click on “Forgot password” from Sign-in page and follow the steps."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="5. What are the benefits that I get by signing up with Doc990?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text=" - As a signed up user, you can enjoy special rates for doctor channeling via Doc990 website or mobile application. You are entitled to 15% off on the service fee (i.e. Rs.275 for Colombo hospitals and Rs.99 for Outer Colombo, Rs.165 for Tele Doctor session) for doctor channeling once you make the booking while being logged in.\n\n - You can easily keep track of all your doctor bookings and make re-bookings on Doc990 faster."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="6. I am a registered customer of My Health Records, am I eligible to claim special promotional rates?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="Yes. you are eligible. All you need to do is, reset your password using your “My Health Records” login credentials (Email address)."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="20dp"
+                    android:text="GENERAL"
+                    android:textSize="24dp"
+                    android:textStyle="bold"
+                    android:background="@drawable/form_style"
+                    android:padding="2dp"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="1. What is Doc990?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="Doc990 is a service that offers convenient booking facilities for Doctor Appointments at leading hospitals in Sri Lanka, Now you can attend to your health requirements and channel over 1000 specialists with Doc 990"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="2. What hospitals are available with Doc990?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="PARTNERS"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="3. How can I use the Doctor booking service through Doc990?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text=" - Call 990 from any mobile network or Dialog CDMA or Lanka Bell CDMA Phone to channel your doctor.\n\n - Visit www.doc.lk\n\n - Download the “Doc990” mobile app from Google play store or App Store.\n\n - Any Dialog Customer Care Centres island wide, any Softlogic outlets island wide, Union Chemist Outlets, Check and Cure Collection Centre and George Goonarathne outlets. (Nugegoda- Old/ Nugegoda New/ Rajagiriya/ Thalawathugoda)"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="4. How do I download Doc990 Mobile Application?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="“Doc990” Mobile Application can be downloaded via Google play store or App store."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="5. How do I search a doctor using Doc990?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="3 Easy steps to search a doctor at your convenience\n\n - Step 1: Type the doctor's name and search\nOr\n - Step 2: Select the available hospital and search\nOr\n - Step 3: Select the specialization and search"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="6. How do I book an appointment with a doctor?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="Select the required session of the doctor, and enter the patient details and select the preferred payment method and proceed. You have 5 minutes to complete the transaction."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="7. How do I know that the doctor appointment has been successful?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="Once you proceed with the payment you will receive a confirmation SMS including below details to your mobile from Doc990.\n\n Ref No:     xxxxxxxx \n Doctor:       Doctor Name \n No:        Appointment Number \n Hospital:       Hospital Name \n Date:        Session Date \n Time:     Session Time (Time may vary according to doctor's arrival time)"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="8. What are the booking charges?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text=" - For Hospitals located in Colombo Suburbs : Rs.275 inclusive of taxes \n\n - For Hospitals located Outside Colombo : Rs.99 inclusive of taxes \n\n - For Tele Doctor session: Rs.165 inclusive of taxes \n\n - Hospital fee and Doctor Fee may vary according to the Doctor and the Hospital"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="9. What are the payment options available?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="Web site \n\n - Add to bill (Charge will be added to your mobile Bill for any Airtel, Dialog / Dialog CDMA, Lanka Bell CDMA, Etisalat or Hutch connections) *When using a prepaid mobile account for the payment, make sure that sufficient balance is available in the prepaid account. \n\n - Any Credit/Debit card - Visa, Master card or AMEX card is accepted. \n\n - Via eZ Cash \n\n - Via Sampath Vishwa \n\n - Via Genie \n\n - Via FriMi \n\n - Via InsureMe \n\n 990 Call Center \n\n - Add to bill (Charge will be added to your mobile Bill for any Airtel, Dialog / Dialog CDMA, Lanka Bell CDMA , Etisalat , Mobitel or Hutch connections) *When using a prepaid mobile account for the payment, make sure that sufficient balance is available in the prepaid account including the call charges \n\n Dialog Arcades \n\n - Cash \n\n Softlogic / Union Chemist / Check and Cure / George Goonarathne Outlets \n\n - Cash and Card Payments"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="10. I don’t have sufficient credit in my Prepaid mobile connection. Can I make a booking?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="Yes. If you are a Dialog Prepaid mobile customer, you can simply pay the booking charge to reserve your appointment."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="11. Can I visit the doctor with a reserved appointment?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="No. You are required to settle the balance amount, 30 minutes prior to the session time. Failing to settle payment before the session time will result in your appointment being cancelled."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="12. How do I settle the balance payment of a reserved appointment?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="You can visit any eZ Cash point island wide with your reservation reference number and pay the balance amount."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="13. Can I pay the balance amount at the hospital counter for a reserved appointment?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="No, unfortunately, you cannot pay the balance amount at the hospital."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="14. Is reservation feature enabled for all doctors and hospitals?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="No, this feature is only available for selected doctors at selected hospitals. You will see a reservation pop up on the payment page if the selected doctor is enabled with this reservation feature."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="15. If I misplaced or deleted the booking confirmation SMS, how can I get the SMS back?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="Use “My Bookings” feature on www.doc.lk home page/Doc990 mobile app or call 0117990990 to get the SMS resent to your mobile free of charge."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="16. Whom Should I call for inquiries?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text=" - You can send an email to service@doc.lk \n\n - Call 0117990990 \n\n - If you have made the appointment via 990 call center / Add to bill option via web site, please call respective mobile operator via 990 to inquire the details."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="17. How do I make a suggestion about Doc 990 service?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="You can send your valuable suggestions to service@doc.lk"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="18.What are the digital healthcare products that Doc990 currently have to offer?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text=" - My Health Records is a feature which aims to help you maintain a personal health record. It will help you track your health and wellbeing by tracking weight, height, dietary preferences, allergies, lab results and much more. This service is currently being revamped and will be online soon. \n\n - Medicine to Your Doorstep is a FREE service to Doc990 users which we bring in partnership with HealthNet International (Pvt) Ltd. It will help you get the medicines your doctor prescribed, with no hassle at all, directly to your home with FREE delivery. For more information, please see https://www.doc.lk/healthnet \n\n - Healthcare to Your Doorstep, brought to you by Doc990 in partnership with Certis Lanka , aimed at bringing you various healthcare services, such as, Doctor on Call, Patient Transportation, Mobile Investigation and Physiotherapy services to wherever you are. To get these services, please go to https://www.doc.lk/certis"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="19. Are these services only available through web?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="No. To serve you better we have provided apps for both Android and iOS based smartphones. All these apps can be installed Free of Charge from Google Play for Android devices and Apple App Store for iOS devices."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="20. How secure are the health information that I store in My Health Records?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="We take the security of health information seriously!! Therefore, we have taken measures to store personal health information in secured servers that can only be accessed by you upon providing proper authorization credentials."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="21. What are the health information available under My Health Records?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="The health information includes details of doctor visits, prescriptions and etc. can be linked to your profile. All your information can be tracked through a single account."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="22. What is a PHN?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="PHN stands for Personal Health Number. The Ministry of Health, Sri Lanka introduced the PHN for people seeking services from healthcare providers. Issuance of PHNs is carried out by institutions under the supervision of the Ministry of Health. It is a number with 11 digits. The first 4 digits represent the issuing authority. The prefix 0990 represents all PHNs issued by Digital Health Private Limited (DHPL). This assures that no two persons will have the same PHN."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="23. How do I get a PHN?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="A PHN is issued by authorized institutions which are named by the Ministry of Health, Sri Lanka. Those institutions are called POI (Point of Issue institutions). They are typically key establishments that interact with the healthcare sector. The Ministry of Health has granted POI rights to DHPL (Digital Health Private Limited) to issue PHN for all customers that interact through various current and future healthcare products. It is issued to a person at the first instance he or she is interacting with a healthcare provider. The healthcare provider is attached to a POI establishment which will issue the PHN to that person."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="20dp"
+                    android:text="LAB REPORTS"
+                    android:textSize="24dp"
+                    android:textStyle="bold"
+                    android:background="@drawable/form_style"
+                    android:padding="2dp"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="1. What is “Lab Report at Your Fingertips” service?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="A value-added service for Doc990 customers to check their laboratory reports online via partner laboratories."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="2. Who are the laboratory partners?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="Currently, you may obtain Asiri Hospitals and Durdans Hospital laboratory reports."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="3. How can I access laboratory reports?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="Simply enter the relevant information printed on your bill in order to access your lab report."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="20dp"
+                    android:text="MY BOOKING FEATURE"
+                    android:textSize="24dp"
+                    android:textStyle="bold"
+                    android:background="@drawable/form_style"
+                    android:padding="2dp"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="1. What is My Bookings feature?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="My Bookings feature allows you to access your bookings receipts and resend confirmation SMSs anytime. You can download, print or email your booking receipts."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="2. How can I access my past booking receipt?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="Click on “My Bookings” on www.doc.lk, Doc990 mobile app home page main menu and select, “Download Booking Receipt”. You can access your any past booking receipts by simply entering reference number and NIC."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="3. I didn't receive my recent booking confirmation SMS. How can get it?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="Click on “My Bookings” on www.doc.lk, Doc990 mobile app home page or main menu and select, “Resend Last Booking SMS”. You can get the last booking confirmation SMS by simply entering phone number and NIC. Only 3 attempts are allowed per booking."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="20dp"
+                    android:text="TELE DOCTOR SERVICE"
+                    android:textSize="24dp"
+                    android:textStyle="bold"
+                    android:background="@drawable/form_style"
+                    android:padding="2dp"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="1. What is Tele Doctor service?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="A digital call connecting service which enables patients and specialist doctors to communicate over a phone call, at a reserved appointment time."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="2. How can I connect with the doctor?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="You will be connected to the doctor via voice call through a Doc990 agent at the given appointment time."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="3. How can I book a tele doctor session?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="Visit www.doc.lk or use Doc990 Mobile App to search your doctor and select “Tele Doctor Service” to reserve your tele doctor appointment time.\n You can also call 990 from any mobile network to get agent assistance to book your appointment."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="4. When can I use Tele Doctor Service?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="Tele Doctor is only a Pre/Post consultation service and is NOT a substitute or an alternate to a physical consultation and it is NOT recommended to be used at times of medical emergency."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="5. How can I pay for a tele doctor booking?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="www.doc.lk Web site \n\n - Add to bill (Charge will be added to your mobile Bill for any Airtel, Dialog / Dialog CDMA, Lanka Bell CDMA, Etisalat or Hutch network) *When using a Prepaid mobile account for the payment, make sure that sufficient balance is available in the prepaid account.\n\n - Any Credit/Debit card - Visa, Master card or AMEX card is accepted. \n\n - Via eZ Cash \n\n - Via Sampath Vishwa \n\n - Via Genie \n\n - Via FriMi \n\n - Via InsureMe \n\n 990 Call Center \n\n - Add to bill (Charge will be added to your mobile Bill for any Airtel, Dialog / Dialog CDMA, Lanka Bell CDMA , Etisalat , Mobitel or Hutch connections) *When using a prepaid mobile account for the payment, make sure that sufficient balance is available in the prepaid account including the call charges. \n\n Dialog Customer Care Centres \n\n - Cash \n\n - Any Credit/Debit card - Visa, Master card or AMEX card is accepted. \n\n Softlogic / Union Chemist / Check and Cure / George Goonarathne Outlets \n\n - Cash \n\n - Any Credit/Debit card - Visa, Master card or AMEX card is accepted."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="6. Will I get charged for Tele Doctor calls?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="Absolutely NOT. You will be receiving a call from 0777990990 at the time of appointment."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="7. How can I transfer reports/prescriptions with the doctor?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="This service does not allow the electronic transfer of prescriptions and medical records between patients and doctors at the moment as this is a voice-based service."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="8. How long will I be able to speak with the doctor?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="Your conversation is limited to 5 minutes. In case the conversation exceeds allocated time slot your call will not be dropped."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="9. How can I get a receipt for Tele Doctor appointment?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="Upon booking confirmation, you will be receiving a digital receipt via email. For claim purposes please make the request to teledoctor@doc .lk"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="20dp"
+                    android:text="DOCTOR ON CALL SERVICE"
+                    android:textSize="24dp"
+                    android:textStyle="bold"
+                    android:background="@drawable/form_style"
+                    android:padding="2dp"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="1. What is the Doctor on Call service?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="A call connecting service offered under the Tele Doctor Service, in partnership with MyDoctor.lk, enabling customers to connect with leading General Practitioners in Sri Lanka for medical advice."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="2. How do I access the service?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text=" - By calling 990 from any mobile network or Dialog CDMA or Lanka Bell CDMA phone \n\n - Via the Doc990 website, www.doc.lk or the Doc990 mobile app \n\n - Any Dialog Customer Care Centre island wide, any Softlogic outlet island wide, Union Chemist outlets, Check and Cure Collection Centres, George Goonarathne outlets (Nugegoda - Old/ Nugegoda New/ Rajagiriya/ Thalawathugoda) and selected pharmacies island wide."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="3. How do I access Doctor on Call sessions?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="Doctor on Call sessions will be listed under the Tele Doctor service. Simply click on the Tele Doctor service title on the Doc990 homepage and select ‘Doctor on Call' to view sessions\nOr\nSearch for sessions by typing the doctor's name under the 'Doctor Name' field"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="4. How do I connect to the Doctor on Call service/Session?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="Visit www.doc.lk or use the Doc990 mobile app and click on ‘Doctor on Call' to reserve your appointment. \n\n You can also call 990 from any mobile network to book your appointment using agent assistance."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="5. How long will it take for me to connect with a General Practitioner via the Doctor on Call service?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="You will be connected to the available General Practitioner by a Doc990 agent via voice call within 1 hour of your request."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="6. Can I speak to the General Practitioner in my preferred language?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="Yes. Sinhala, English and Tamil speaking doctors are available for your convenience. You can request that the agent connects you in your preferred language."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="7. Can I speak to a female doctor?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="If you prefer to speak to a female General Practitioner, you can request that the agent connects you to a female doctor."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="8. What is the service charge for the Doctor on Call service?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="The Doc990 service charge is Rs.165, inclusive of taxes."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="20dp"
+                    android:text="NO SHOW REFUND SERVICE"
+                    android:textSize="24dp"
+                    android:textStyle="bold"
+                    android:background="@drawable/form_style"
+                    android:padding="2dp"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="1. What is a No Show Refund?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="Through this service, you can claim the total charge of your appointment in the event of a cancellation made by you. However, you will be charged a No Show Refund Charge of Rs.250."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="2. What are the charges entitled to a No Show Refund?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="You will receive a total sum of the following charges:\n\n - Hospital Charge \n - Doctor Charge \n - Doc990 Service Charge Fee \n - Charge for Ongoing Number \n\n If you have selected the No Show Refund Service at the time of making the appointment, you will be eligible for this service."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="3. How long will I have to wait to receive the refund in cash?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="Your refund will be processed within 2 - 3 working days from the date of refund request submission. If you are a foreign customer, you should provide a local bank account number to obtain the No Show Refund service”."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="4. How do I apply for a refund?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="You can request a refund by clicking on the ‘Refund Request' button on www.doc.lk or the Doc990 mobile app or by calling the DHPL hotline via 011 7 990 990 or via Doc990 partners. \n You must submit your refund request before your scheduled session start time indicated on the web or app to be eligible."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="5. How will I receive my refund?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="DHPL will refund cash to your bank account or will arrange for a mobile bill payment based on the preferred method mentioned in your refund request form."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="6. If I don't receive my refund within 2 - 3 working days, who should I contact?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="Please call 011 7 990 990 or write to us at service@doc.lk along with your Doc990 reference number."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="7. How do I know that my refund request has been submitted?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="Once you submit the refund request, you will receive an acknowledgement SMS."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="8. How do I know if my refund was successful?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="You will receive a confirmation SMS or you will be contacted by a Doc990 representative."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="9. If I have not opted for a No Show Refund while making the appointment, will I be able to opt for the service later?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="No. The service cannot be activated after your appointment has been made."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="20dp"
+                    android:text="ONGOING NUMBER"
+                    android:textSize="24dp"
+                    android:textStyle="bold"
+                    android:background="@drawable/form_style"
+                    android:padding="2dp"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="1. What is Ongoing Number service?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="It is a value-added service enabling Doc990 customers to check the Ongoing number of their doctor session, once it has commenced."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="2. How much do I have to pay for the Ongoing Number service?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="This service is free of charge for Doc990 customers during the promotional period."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="3. How do I subscribe to the Ongoing Number service?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="You can subscribe to this service at the time of making the appointment. This facility is only available for selected doctor sessions at selected hospitals."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="4. How do I view the Ongoing Number?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#00008B"     />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="You will receive an SMS with a URL to access the Ongoing Number at the time of making the appointment. \n\n Or visit www.doc.lk or the Doc990 mobile app and click on 'My Bookings' to check the Ongoing Number. \n\n Accuracy of the number displayed depends on the information entered by the respective hospital."
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>
