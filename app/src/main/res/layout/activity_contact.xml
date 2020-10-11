@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".contact">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:background="@color/home">
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/back"/>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="100dp"
+            android:text="Contact Us"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"/>
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+
+          <ImageView
+              android:layout_width="40dp"
+              android:layout_height="40dp"
+              android:layout_marginTop="30dp"
+              android:layout_marginLeft="60dp"
+              android:background="@drawable/phone"
+              />
+
+          <TextView
+              android:layout_width="200dp"
+              android:layout_height="40dp"
+              android:layout_marginTop="40dp"
+              android:layout_marginLeft="30dp"
+              android:textSize="20dp"
+              android:text="07123456789"/>
+
+      </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="60dp"
+                android:background="@drawable/mail"
+                />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="20dp"
+                android:text="doc990@outlook.com"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="20dp"
+                android:text="Social Medias to Follow"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="60dp"
+                android:background="@drawable/fb"
+                />
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="20dp"
+                android:text="doc990@facebook.com"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="60dp"
+                android:background="@drawable/twitter"
+                />
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="20dp"
+                android:text="doc990@twitter.com"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="60dp"
+                android:background="@drawable/ig"
+                />
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="20dp"
+                android:text="doc990@instagram.com"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

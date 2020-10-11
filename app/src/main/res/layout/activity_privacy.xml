@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".privacy">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/home">
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/back"/>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="90dp"
+            android:text="Privacy Policy"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="
+Personal Information Collection
+We collect information only as necessary and use for the intended purposes it was collected as stated at the time of collection. Information collected from you can be grouped together as follows:
+Information about you, which includes name, addresses and telephone numbers, date of birth, gender, National Identity Card number and email addresses, passport number, nationality and country of residence.
+Health information when making a booking to reserve an appointment with specific doctors. When you enrol to Health Vault service, we may collect personal health information to help you understand and manage your health data. Information collected are, not limited to, information relating to the doctors, dentists or other healthcare specialists, professionals, providers, or organizations (collectively, “healthcare providers”) you have visited, reasons for your visit, your dates of visit, your medical history, and health information (blood group, BMI, allergies etc.) you choose to share with the doctors.
+Your payment information when payment are processed by the use of our Services we may capture information such as payment confirmation and billing information.
+Information with regard to our Services you have taken. We may collect information in relation to our services used by you. This includes the doctors and hospitals you have selected when channelling and the information stored in the Health Vault service.
+Our interactions with you, any interactions and correspondence between us such as calls, made through our call centre, interactions you have with our staff or representatives, posts that refer to us on social media and any interactions with us will be recorded.
+Information that are collected via surveys, promotions or through marketing campaigns.
+When you use our Services, we may collect technical information collected during your visits to our website or mobile applications such as cookies and other online identifiers. We use this information to verify that visitors meet the criteria required to process their requests and for reporting activity on our Services.
+You may be given the opportunity to 'opt-out' of having any of the above Personal Information collected, processed or transferred by Digital Health. Consent can be withdrawn, i.e. ‘opt-out’, by contacting us through the below mentioned contact details. However, note this choice may affect your use of certain features or services.
+
+Purpose of collection and processing
+We will process your personal information for the purpose stated at the time of collection. Such as:
+To establish the contracted services you have enrolled for
+To process the service you have enrolled and managing and administering your account
+To communicate with you for customer support
+To verify and validate your identity when required
+To assist us in offering you a personalized experience or otherwise tailor product and service offerings to you.
+To communicate to you for marketing and promotional purposes of our products and services.
+To administer campaigns or contests conducted by us when you choose to participate in them.
+To deliver relevant website content and advertisements to you and measure or understand the effectiveness of the advertising we serve to you.
+To improve our products and services.
+To assist in responding to your complaints or feedback
+To ensure safety and security of our services
+To comply with legal process or laws of the land
+The above is not an exhaustive list and additional information can be facilitated upon request.
+
+
+
+ "/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

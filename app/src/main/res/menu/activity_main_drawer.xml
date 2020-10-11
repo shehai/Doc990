@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/booking"
+            android:title="My Bookings" />
+
+        <item
+            android:icon="@drawable/refund"
+            android:title="Refund request" />
+
+        <item
+            android:icon="@drawable/on"
+            android:title="Ongoing Number" />
+
+        <item
+            android:icon="@drawable/partners"
+            android:title="partners" />
+
+        <item
+            android:icon="@drawable/about"
+            android:title="About Us" />
+
+        <item
+            android:icon="@drawable/cont"
+            android:title="Contact Us" />
+
+        <item
+            android:icon="@drawable/per"
+            android:title="Offers" />
+
+        <item
+            android:icon="@drawable/term"
+            android:title="Terms $ Conditions" />
+
+        <item
+            android:icon="@drawable/privacy"
+            android:title="Privacy Policy" />
+
+        <item
+            android:icon="@drawable/qa"
+            android:title="F.A.Q" />
+
+    </group>
+</menu>

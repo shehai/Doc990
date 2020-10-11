@@ -9,9 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DoctorList"/>
-        <activity android:name=".RefundSearch"/>
-        <activity android:name=".Faq"></activity>
+        <activity android:name=".DoctorList" />
+        <activity android:name=".RefundSearch" />
         <activity android:name=".ReloadRefund" />
         <activity android:name=".CheckDoctor" />
         <activity android:name=".RefundRequest" />
@@ -20,7 +19,6 @@
         <activity android:name=".ChangePwdActivity" />
         <activity android:name=".ProfileActivity" />
         <activity android:name=".Login" />
-        <activity android:name=".home" />
         <activity android:name=".booking" />
         <activity android:name=".partner_hospitle" />
         <activity android:name=".BookingHistory" />
@@ -31,9 +29,23 @@
         <activity android:name=".SignUpActivity2" />
         <activity android:name=".SignUpActivity1" />
         <activity android:name=".BankRefund" />
+        <activity
+            android:name=".menu"
+            android:label="@string/title_activity_menu"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".medicine" />
+        <activity android:name=".report" />
+        <activity android:name=".health" />
+        <activity android:name=".lab" />
+        <activity android:name=".record" />
+        <activity android:name=".offers" />
+        <activity android:name=".privacy" />
+        <activity android:name=".terms" />
+        <activity android:name=".contact" />
+        <activity android:name=".home" android:theme="@style/splash" />
         <activity android:name=".MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"  />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".terms">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/home">
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/back"/>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:text="Terms and Conditions"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"/>
+
+        </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:layout_marginLeft="20dp"
+         android:layout_marginRight="20dp"
+         >
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textSize="15dp"
+             android:text=" General Terms and Conditions applicable for all services offered through Doc990
+All customers using Doc990 shall be adjudged to have read and agreed to the terms and conditions stated herein.
+All terms and conditions provided herein are applicable at the time of scheduling appointments via the Website, Mobile App or Partners.
+DHPL has the sole authority to extend / discontinue all offers and promotions without any prior notice.
+All Customers hereby agree to promotional materials / content to be displayed upon registration with Doc990.
+DHPL has the sole authority to deactivate Customer accounts without prior notice in case of fraud or misconduct .
+DHPL shall not, under any circumstances, be responsible for, inter alia, the quality, accuracy, completeness, value and integrity of the advice provided by the Doctor.
+DHPL shall not be liable or responsible in any manner whatsoever for:
+All healthcare services channelled through Doc990, including but not limited to diagnosis, prescription and other medical advice provided by hospitals, Doctors and/or any other healthcare professionals;
+Any refunds for appointment cancellations by the hospital, Doctor or patient and for no show by patient, in the event the Customer has not subscribed to NSR Service. Any changes to the scheduled appointments are not within the control of DHPL and Customers should liaise directly with the respective hospital, in relation to such matters.
+Doc990 service charge is non-refundable under any of above circumstance unless customer has opted for No Show Refund service.
+Customers shall be responsible for the accuracy of Personal Information provided to Doc990, for the purposes of scheduling the appointment.
+DHPL reserves the right to revise these Terms and Conditions at any time, at its discretion.
+Nothing herein expressed or implied is intended to or shall be construed to confer upon or give any person other than the Customer any rights or remedies against DHPL. "/>
+
+     </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
