@@ -155,7 +155,8 @@
                             android:background="@color/darkBlue"
                             android:text="Re-book"
                             android:textSize="20dp"
-                            android:textStyle="normal" />
+                            android:textStyle="normal"
+                            android:onClick="rebook"/>
 
                         <TextView
                             android:layout_width="340dp"
@@ -259,7 +260,8 @@
                             android:background="@color/darkBlue"
                             android:text="Re-book"
                             android:textSize="20dp"
-                            android:textStyle="normal" />
+                            android:textStyle="normal"
+                            android:onClick="rebook"/>
 
                         <TextView
                             android:layout_width="340dp"
@@ -363,7 +365,8 @@
                             android:background="@color/darkBlue"
                             android:text="Re-book"
                             android:textSize="20dp"
-                            android:textStyle="normal" />
+                            android:textStyle="normal"
+                            android:onClick="rebook"/>
 
                         <TextView
                             android:layout_width="340dp"

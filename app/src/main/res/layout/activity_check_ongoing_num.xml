@@ -88,7 +88,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginBottom="10dp"
-                android:drawableLeft="@drawable/phone"
+                android:drawableLeft="@drawable/phn"
                 android:drawableRight="@drawable/star"
                 android:text="Phone number"
                 android:textSize="20dp"

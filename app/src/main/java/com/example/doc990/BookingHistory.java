@@ -22,4 +22,9 @@ public class BookingHistory extends AppCompatActivity {
         Intent a = new Intent(this,MyBookings.class);
         startActivity(a);
     }
+
+    public void rebook(View v){
+        Intent d = new Intent(this,CheckDoctor.class);
+        startActivity(d);
+    }
 }

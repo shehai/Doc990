@@ -42,4 +42,9 @@ public class MyBookings extends AppCompatActivity {
         Intent d = new Intent(this,ResendBookingSms.class);
         startActivity(d);
     }
+
+    public void rebook(View v){
+        Intent d = new Intent(this,CheckDoctor.class);
+        startActivity(d);
+    }
 }
