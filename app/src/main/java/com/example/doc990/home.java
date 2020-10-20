@@ -1,7 +1,9 @@
 package com.example.doc990;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
@@ -65,4 +67,80 @@ public class home extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+
+    public void goDoctors(View v){
+
+        startActivity(new Intent(home.this,CheckDoctor.class));
+
+
+
+    }
+
+
+    public void goRecords(View v){
+
+        startActivity(new Intent(home.this,record.class));
+
+
+
+    }
+
+
+    public void golabreports(View v){
+
+        startActivity(new Intent(home.this,report.class));
+
+
+
+    }
+
+
+    public void gobookings(View v){
+
+        startActivity(new Intent(home.this,BookingHistory.class));
+
+
+
+    }
+
+    public void gofaq(View v){
+
+        startActivity(new Intent(home.this,Faq.class));
+
+
+
+    }
+
+    public void gorefund(View v){
+
+        startActivity(new Intent(home.this,RefundRequest.class));
+
+
+
+    }
+
+    public void gotoprofile(View v){
+
+        startActivity(new Intent(home.this,ProfileActivity.class));
+
+
+
+    }
+
+    public void gomedicine(View v){
+
+        startActivity(new Intent(home.this,medicine.class));
+
+
+
+    }
+
+
+
+
+
+
+
+
 }

@@ -19,7 +19,7 @@
         <activity android:name=".AddAboutUs" />
         <activity android:name=".ChangePwdActivity" />
         <activity android:name=".ProfileActivity" />
-        <activity android:name=".Login" />
+        <activity android:name=".MainActivity" />
         <activity android:name=".booking" />
         <activity android:name=".partner_hospitle" />
         <activity android:name=".BookingHistory" />
@@ -43,8 +43,8 @@
         <activity android:name=".privacy" />
         <activity android:name=".terms" />
         <activity android:name=".contact" />
-        <activity android:name=".home" android:theme="@style/splash" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".home"  />
+        <activity android:name=".Login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

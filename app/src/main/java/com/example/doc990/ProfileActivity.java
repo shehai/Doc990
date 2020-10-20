@@ -2,6 +2,7 @@ package com.example.doc990;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
@@ -80,5 +81,24 @@ public class ProfileActivity extends AppCompatActivity {
                  //
                 break;
         }
+    }
+
+
+
+    public void gotohm(View v){
+
+        startActivity(new Intent(ProfileActivity.this,home.class));
+
+
+
+    }
+
+
+    public void changepwd(View v){
+
+        startActivity(new Intent(ProfileActivity.this,ChangePwdActivity.class));
+
+
+
     }
 }

@@ -180,6 +180,7 @@
                     android:text="Submit"
                     android:background="@drawable/round_button"
                     android:textColor="@color/white"
+                    android:onClick="gotosignup"
 
                     />
 
@@ -204,7 +205,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.046"
-
+        android:onClick="gotoback"
 
         />
 

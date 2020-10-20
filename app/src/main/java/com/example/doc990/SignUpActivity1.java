@@ -38,4 +38,13 @@ public class SignUpActivity1 extends AppCompatActivity {
 
 
     }
+
+
+    public void gotologin(View v){
+
+        startActivity(new Intent(SignUpActivity1.this,Login.class));
+
+
+
+    }
 }

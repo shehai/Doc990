@@ -148,7 +148,9 @@
                     android:elevation="0dp"
                     android:text="Already have an account? LoginIn"
 
-                    android:textColorHighlight="@color/darkBlue" />
+                    android:textColorHighlight="@color/darkBlue"
+                    android:onClick="gotologin"
+                    />
 
 
             </LinearLayout>
