@@ -5,44 +5,67 @@
 
     <group android:checkableBehavior="single">
         <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+
+        <item
+            android:id="@+id/nav_myBookings"
             android:icon="@drawable/booking"
-            android:title="My Bookings" />
+            android:title="@string/menu_myBookings" />
 
         <item
+            android:id="@+id/nav_refundRequest"
             android:icon="@drawable/refund"
-            android:title="Refund request" />
+            android:title="@string/menu_refundRequest" />
 
         <item
+            android:id="@+id/nav_ongoingNumber"
             android:icon="@drawable/on"
-            android:title="Ongoing Number" />
+            android:title="@string/menu_ongoingNumber" />
 
         <item
+            android:id="@+id/nav_partners"
             android:icon="@drawable/partners"
-            android:title="partners" />
+            android:title="@string/menu_partners" />
 
         <item
+            android:id="@+id/nav_aboutUs"
             android:icon="@drawable/about"
-            android:title="About Us" />
+            android:title="@string/menu_aboutUs" />
 
         <item
+            android:id="@+id/nav_contactUs"
             android:icon="@drawable/cont"
-            android:title="Contact Us" />
+            android:title="@string/menu_contactUs" />
 
         <item
+            android:id="@+id/nav_offers"
             android:icon="@drawable/per"
-            android:title="Offers" />
+            android:title="@string/menu_offers" />
 
         <item
+            android:id="@+id/nav_termsConditions"
             android:icon="@drawable/term"
-            android:title="Terms $ Conditions" />
+            android:title="@string/menu_termsConditions" />
 
         <item
+            android:id="@+id/nav_privacypolicy"
             android:icon="@drawable/privacy"
-            android:title="Privacy Policy" />
+            android:title="@string/menu_privacyPolicy" />
 
         <item
+            android:id="@+id/nav_faq"
             android:icon="@drawable/qa"
-            android:title="F.A.Q" />
+            android:title="@string/menu_faq" />
 
     </group>
 </menu>

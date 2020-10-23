@@ -11,15 +11,70 @@
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
-    <fragment
+    <activity
         android:id="@+id/nav_gallery"
-        android:name="com.example.doc990.ui.gallery.GalleryFragment"
+        android:name="com.example.doc990.Login"
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_gallery" />
 
-    <fragment
+    <activity
         android:id="@+id/nav_slideshow"
-        android:name="com.example.doc990.ui.slideshow.SlideshowFragment"
+        android:name="com.example.doc990.SignUpActivity1"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+
+    <activity
+        android:id="@+id/nav_myBookings"
+        android:name="com.example.doc990.MyBookings"
+        android:label="@string/menu_myBookings"
+        tools:layout="@layout/activity_my_bookings" />
+
+    <activity
+        android:id="@+id/nav_refundRequest"
+        android:name="com.example.doc990.RefundRequest"
+        android:label="@string/menu_refundRequest"
+        tools:layout="@layout/activity_refund_request" />
+
+    <activity
+        android:id="@+id/nav_ongoingNumber"
+        android:name="com.example.doc990.CheckOngoingNum"
+        android:label="@string/menu_ongoingNumber"
+        tools:layout="@layout/activity_check_ongoing_num" />
+    <activity
+        android:id="@+id/nav_partners"
+        android:name="com.example.doc990.partner_hospitle"
+        android:label="@string/menu_partners"
+        tools:layout="@layout/activity_partner_hospitle" />
+    <activity
+        android:id="@+id/nav_aboutUs"
+        android:name="com.example.doc990.AddAboutUs"
+        android:label="@string/menu_aboutUs"
+        tools:layout="@layout/activity_add_about_us" />
+    <activity
+        android:id="@+id/nav_contactUs"
+        android:name="com.example.doc990.contact"
+        android:label="@string/menu_contactUs"
+        tools:layout="@layout/activity_contact" />
+    <activity
+        android:id="@+id/nav_offers"
+        android:name="com.example.doc990.offers"
+        android:label="@string/menu_offers"
+        tools:layout="@layout/activity_offers" />
+    <activity
+        android:id="@+id/nav_termsConditions"
+        android:name="com.example.doc990.terms"
+        android:label="@string/menu_termsConditions"
+        tools:layout="@layout/activity_terms" />
+    <activity
+        android:id="@+id/nav_privacypolicy"
+        android:name="com.example.doc990.privacy"
+        android:label="@string/menu_privacyPolicy"
+        tools:layout="@layout/activity_privacy" />
+    <activity
+        android:id="@+id/nav_faq"
+        android:name="com.example.doc990.Faq"
+        android:label="@string/menu_faq"
+        tools:layout="@layout/activity_faq" />
+
+
 </navigation>

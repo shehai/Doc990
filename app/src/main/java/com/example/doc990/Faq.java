@@ -19,7 +19,7 @@ public class Faq extends AppCompatActivity {
     }
 
     public void home(View v){
-        Intent a = new Intent(this,home.class);
+        Intent a = new Intent(this,Main2Activity.class);
         startActivity(a);
     }
 }

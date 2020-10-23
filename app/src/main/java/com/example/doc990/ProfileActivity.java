@@ -7,11 +7,16 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 public class ProfileActivity extends AppCompatActivity {
+
+    Button update;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +45,20 @@ public class ProfileActivity extends AppCompatActivity {
         );
         cAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         myspinne.setAdapter(cAdapter);
+
+
+
+                update = (Button) findViewById(R.id. btn_updateProf);
+
+        update.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Toast toast=Toast. makeText(getApplicationContext(),"Profile updated successfully",Toast. LENGTH_SHORT);
+
+                toast. show();
+        }
+        });
     }
 
 
@@ -85,9 +104,9 @@ public class ProfileActivity extends AppCompatActivity {
 
 
 
-    public void gotohm(View v){
+   public void goho(View v){
 
-        startActivity(new Intent(ProfileActivity.this,home.class));
+        startActivity(new Intent(ProfileActivity.this,Main2Activity.class));
 
 
 

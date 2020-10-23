@@ -18,10 +18,10 @@ public class MyBookings extends AppCompatActivity {
         setContentView(R.layout.activity_my_bookings);
     }
 
-    public void home(View v){
+    /*public void home(View v){
         Intent i = new Intent(this,home.class);
         startActivity(i);
-    }
+    }*/
 
     public void bookingHistory(View v){
         Intent a = new Intent(this,BookingHistory.class);

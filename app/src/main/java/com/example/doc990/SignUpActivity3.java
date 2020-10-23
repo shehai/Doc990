@@ -10,6 +10,7 @@ import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 public class SignUpActivity3 extends AppCompatActivity {
 
@@ -54,7 +55,20 @@ public class SignUpActivity3 extends AppCompatActivity {
 
     public void gotohome(View v){
 
-        startActivity(new Intent(SignUpActivity3.this,home.class));
+        Toast toast=Toast. makeText(getApplicationContext(),"Create account successfully",Toast. LENGTH_SHORT);
+
+        toast. show();
+
+
+        startActivity(new Intent(SignUpActivity3.this,Main2Activity.class));
+
+
+
+    }
+
+    public void gosign(View v){
+
+        startActivity(new Intent(SignUpActivity3.this,SignUpActivity2.class));
 
 
 

@@ -6,19 +6,181 @@
     android:layout_height="match_parent"
     tools:context=".ui.home.HomeFragment">
 
-    <TextView
-        android:id="@+id/text_home"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.17" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal"
+                >
+
+                <ImageButton
+                    android:id="@+id/btn_doc"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginLeft="90dp"
+                    android:background="@drawable/doctor"
+
+                    />
+
+                <ImageButton
+                    android:id="@+id/btn_record"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginLeft="70dp"
+                    android:background="@drawable/record"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="100dp"
+                    android:text="Doctors"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="45dp"
+                    android:text="My Records"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                >
+
+                <ImageButton
+                    android:id="@+id/btn_lab"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginLeft="90dp"
+                    android:background="@drawable/lab"
+
+                    />
+
+                <ImageButton
+                    android:id="@+id/btn_medicine"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginLeft="70dp"
+                    android:background="@drawable/medicine"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="90dp"
+                    android:text="Lab Reports"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="Medicine"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    />
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                >
+
+                <ImageButton
+                    android:id="@+id/btn_health"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginLeft="170dp"
+                    android:background="@drawable/care"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="170dp"
+                    android:text="Health Care"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal"
+                >
+
+                <ImageButton
+                    android:id="@+id/btn_offer"
+                    android:layout_width="370dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/offe"/>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
