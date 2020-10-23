@@ -34,6 +34,8 @@ public class ReloadRefund extends AppCompatActivity {
     }
 
     public void Successful(View v){
-        Toast.makeText(ReloadRefund.this,"Successful!",Toast.LENGTH_SHORT).show();
+        Toast.makeText(ReloadRefund.this,"Successfully submitted!",Toast.LENGTH_SHORT).show();
+        Intent a = new Intent(this,RefundRequest.class);
+        startActivity(a);
     }
 }

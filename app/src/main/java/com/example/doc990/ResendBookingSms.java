@@ -25,7 +25,9 @@ public class ResendBookingSms extends AppCompatActivity {
     }
 
     public void Successful(View v){
-        Toast.makeText(ResendBookingSms.this,"Successful!",Toast.LENGTH_SHORT).show();
+        Toast.makeText(ResendBookingSms.this,"Successfully sent!",Toast.LENGTH_SHORT).show();
+        Intent a = new Intent(this,MyBookings.class);
+        startActivity(a);
     }
 
 }

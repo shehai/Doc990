@@ -2,9 +2,11 @@ package com.example.doc990;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.ActionBar;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.Window;
 import android.view.WindowManager;
 
 public class MyBookings extends AppCompatActivity {
@@ -18,10 +20,10 @@ public class MyBookings extends AppCompatActivity {
         setContentView(R.layout.activity_my_bookings);
     }
 
-    /*public void home(View v){
-        Intent i = new Intent(this,home.class);
+    public void home(View v){
+        Intent i = new Intent(this,Main2Activity.class);
         startActivity(i);
-    }*/
+    }
 
     public void bookingHistory(View v){
         Intent a = new Intent(this,BookingHistory.class);

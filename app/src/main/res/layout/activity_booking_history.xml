@@ -14,8 +14,7 @@
             android:id="@+id/toolbar"
             android:layout_width="409dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:background="	#00008B"
+            android:background="@color/home"
             android:minHeight="?attr/actionBarSize"
             android:theme="?attr/actionBarTheme"
             app:layout_constraintEnd_toEndOf="parent"
@@ -83,7 +82,7 @@
                         android:layout_gravity="center_vertical|center_horizontal"
                         android:gravity="center"
                         android:orientation="vertical"
-                        android:background="#ADD8E6">
+                        android:background="#E0EEEE">
 
                         <TextView
                             android:layout_width="340dp"
@@ -152,7 +151,7 @@
                             android:layout_width="328dp"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:background="@color/darkBlue"
+                            android:background="@drawable/round_button"
                             android:text="Re-book"
                             android:textSize="20dp"
                             android:textStyle="normal"
@@ -187,7 +186,7 @@
                         android:layout_gravity="center_vertical|center_horizontal"
                         android:gravity="center"
                         android:orientation="vertical"
-                        android:background="#ADD8E6">
+                        android:background="#E0EEEE">
 
                         <TextView
                             android:layout_width="340dp"
@@ -257,7 +256,7 @@
                             android:layout_width="328dp"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:background="@color/darkBlue"
+                            android:background="@drawable/round_button"
                             android:text="Re-book"
                             android:textSize="20dp"
                             android:textStyle="normal"
@@ -292,7 +291,7 @@
                         android:layout_gravity="center_vertical|center_horizontal"
                         android:gravity="center"
                         android:orientation="vertical"
-                        android:background="#ADD8E6">
+                        android:background="#E0EEEE">
 
                         <TextView
                             android:layout_width="340dp"
@@ -362,7 +361,7 @@
                             android:layout_width="328dp"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:background="@color/darkBlue"
+                            android:background="@drawable/round_button"
                             android:text="Re-book"
                             android:textSize="20dp"
                             android:textStyle="normal"

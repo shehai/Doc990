@@ -25,6 +25,8 @@ public class BankRefund extends AppCompatActivity {
     }
 
     public void bankRefund(View v){
-        Toast.makeText(BankRefund.this,"Successful!",Toast.LENGTH_SHORT).show();
+        Toast.makeText(BankRefund.this,"Successfully submitted!",Toast.LENGTH_SHORT).show();
+        Intent a = new Intent(this,RefundRequest.class);
+        startActivity(a);
     }
 }

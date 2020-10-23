@@ -14,8 +14,7 @@
             android:id="@+id/toolbar"
             android:layout_width="409dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:background="	#00008B"
+            android:background="@color/home"
             android:minHeight="?attr/actionBarSize"
             android:theme="?attr/actionBarTheme"
             app:layout_constraintEnd_toEndOf="parent"
@@ -63,7 +62,7 @@
                 android:layout_width="360dp"
                 android:layout_height="490dp"
                 android:layout_marginRight="20dp"
-                android:layout_marginLeft="20dp"
+                android:layout_marginLeft="27dp"
                 android:orientation="vertical"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -1408,6 +1407,15 @@
                     android:layout_marginBottom="10dp"
                     android:text="You will receive an SMS with a URL to access the Ongoing Number at the time of making the appointment. \n\n Or visit www.doc.lk or the Doc990 mobile app and click on 'My Bookings' to check the Ongoing Number. \n\n Accuracy of the number displayed depends on the information entered by the respective hospital."
                     android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text=""
+                    android:textSize="20dp" />
+
 
             </LinearLayout>
 
