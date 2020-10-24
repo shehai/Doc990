@@ -74,7 +74,7 @@
                 android:layout_marginLeft="10dp"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Name" />
+                android:hint="Name" />
 
 
         </LinearLayout>
@@ -94,6 +94,7 @@
                 android:textSize="20sp" />
 
             <EditText
+                android:paddingTop="5dp"
                 android:id="@+id/editTextContact"
                 android:layout_width="150dp"
                 android:layout_height="40dp"
@@ -101,7 +102,7 @@
                 android:layout_marginLeft="10dp"
                 android:ems="10"
                 android:inputType="number"
-                android:text="Passcode" />
+                android:hint="contact" />
 
 
         </LinearLayout>
@@ -163,6 +164,7 @@
             android:layout_marginTop="30dp">
 
             <Button
+                android:id="@+id/submit_btn"
                 android:layout_width="200dp"
                 android:layout_height="30dp"
                 android:layout_marginTop="30dp"
